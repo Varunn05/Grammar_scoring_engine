@@ -2,16 +2,18 @@
 
 This project implements a machine learning model to predict grammar scores (0-5) from spoken audio samples. The model analyzes audio features to assess grammatical accuracy and structure in speech.
 
+# Audio files: https://drive.google.com/file/d/1gA48Dv5m4KcqLSLT-tBwwmDQ419zjBi9/view?usp=drive_link
+
 ## Project Structure
 
 ```
 .
 ├── dataset/
-│   ├── audios_test/      # Test audio files
-│   ├── audios_train/     # Training audio files
 │   ├── test.csv          # Test set metadata
 │   ├── train.csv         # Training set with labels
 │   └── sample_submission.csv
+├── audios_test/          # Test audio files
+├── audios_train/         # Training audio files
 ├── grammar_scoring_engine.ipynb  # Main notebook
 ├── requirements.txt      # Project dependencies
 ├── submission.csv       # final sample submission file
